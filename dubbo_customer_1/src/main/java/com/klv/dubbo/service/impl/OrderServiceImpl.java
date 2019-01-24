@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class OrderServiceImpl implements OrderService{
 
-@Autowired
-    UserService userService;
+//@Autowired
+//    UserService userService;
     public void initOrder() {
-         userService.getAdress();
+
     }
 }
